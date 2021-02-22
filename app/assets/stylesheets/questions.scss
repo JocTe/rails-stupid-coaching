@@ -1,0 +1,34 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+    margin: 10px;
+}
+
+figure {
+    margin: 20px 0px;
+    padding: 5px;
+    border-left: 10px solid #DDDDDD;
+
+    blockquote {
+        margin: 0;
+    }
+    figcaption {
+        font-style: italic;
+    }
+    & div.quote {
+        margin-left: 15px;
+    }
+    &.highlight {
+        background-color: #FFFFE1 ;
+        p{
+            font-weight: bold;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
